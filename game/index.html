@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Quiz Royale</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.134/examples/js/controls/PointerLockControls.js"></script>
+</head>
+<body>
+  <div id="menu">
+    <h1>Battle Quiz Royale</h1>
+    <button id="startButton">Iniciar</button>
+  </div>
+  <div id="questionBox" class="hidden">
+    <p id="questionText"></p>
+    <input type="text" id="answerInput" placeholder="Respuesta">
+    <button id="submitAnswer">Enviar</button>
+    <p id="feedback"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
